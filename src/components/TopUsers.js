@@ -12,17 +12,16 @@ const TopUsers = () => {
       spacing={2}
       sx={{ marginBottom: "50px", marginTop: "20px" }}
     >
-      <Grid item xs={4}>
+      <Grid item xs={6} sm={4} lg={4}>
         <Paper variant="outlined">
           <Box
             sx={{
-              width: 200,
+              width: "60%",
               height: 20,
               backgroundColor: "#FFA500",
-              alignItems: "left",
             }}
           >
-            <Typography color="#E5E4E2" fontWeight="bold">
+            <Typography align="left" color="#E5E4E2" fontWeight="bold">
               Top Customer
             </Typography>
           </Box>
@@ -60,17 +59,16 @@ const TopUsers = () => {
           </div>
         </Paper>
       </Grid>
-      <Grid item xs={4}>
+      <Grid item xs={6} sm={4} lg={4}>
         <Paper variant="outlined">
           <Box
             sx={{
-              width: 200,
+              width: "60%",
               height: 20,
               backgroundColor: "#FFA500",
-              alignItems: "left",
             }}
           >
-            <Typography color="#E5E4E2" fontWeight="bold">
+            <Typography align="left" color="#E5E4E2" fontWeight="bold">
               Top Rider
             </Typography>
           </Box>
@@ -107,17 +105,16 @@ const TopUsers = () => {
           </div>
         </Paper>
       </Grid>
-      <Grid item xs={4}>
+      <Grid item xs={12} sm={4} lg={4}>
         <Paper variant="outlined">
           <Box
             sx={{
-              width: 200,
+              width: "60%",
               height: 20,
               backgroundColor: "#FFA500",
-              alignItems: "left",
             }}
           >
-            <Typography color="#E5E4E2" fontWeight="bold">
+            <Typography align="left" color="#E5E4E2" fontWeight="bold">
               Top Rider
             </Typography>
           </Box>

@@ -19,6 +19,7 @@ import Exclamation from "../static/noun-exclamation.png";
 import Star from "../static/noun-star.png";
 
 function createData(
+  id,
   type,
   order,
   customer,
@@ -29,6 +30,7 @@ function createData(
   sign
 ) {
   return {
+    id,
     type,
     order,
     customer,
@@ -42,6 +44,7 @@ function createData(
 
 const rows = [
   createData(
+    '1',
     "Squad",
     25064,
     "Tommy Hatcher",
@@ -52,6 +55,7 @@ const rows = [
     Exclamation
   ),
   createData(
+    '2',
     "Normal",
     26753,
     "Natasha",
@@ -62,6 +66,7 @@ const rows = [
     Star
   ),
   createData(
+    '3',
     "Normal",
     27535,
     "Hillary",
@@ -72,6 +77,7 @@ const rows = [
     Smile
   ),
   createData(
+    '4',
     "Normal",
     27535,
     "Hillary",
@@ -82,6 +88,7 @@ const rows = [
     Exclamation
   ),
   createData(
+    '5',
     "Normal",
     27535,
     "Hillary",
@@ -92,6 +99,7 @@ const rows = [
     Star
   ),
   createData(
+    '6',
     "Squad",
     27535,
     "Hillary",

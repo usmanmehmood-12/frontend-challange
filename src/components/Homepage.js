@@ -65,9 +65,9 @@ const Homepage = () => {
                 </Button>
               </Grid>
 
-              <Grid item xs={2}>
+              <Grid item xs={4} lg={2} sm={4}>
                 <Paper>
-                  <div style={{ textAlign: "center", marginLeft: "10px" }}>
+                  <div style={{ textAlign: "center" }}>
                     <img
                       alt="people"
                       src={Customers}
@@ -92,7 +92,7 @@ const Homepage = () => {
                   </div>
                 </Paper>
                 <Paper sx={{ marginTop: "10%" }}>
-                  <div style={{ textAlign: "center", marginLeft: "10px" }}>
+                  <div style={{ textAlign: "center" }}>
                     <img alt="people" src={Revenue} width="100" height="100" />
                     <Typography
                       variant="body2"
@@ -112,9 +112,9 @@ const Homepage = () => {
                   </div>
                 </Paper>
               </Grid>
-              <Grid item xs={2}>
+              <Grid item xs={4} lg={2} sm={4}>
                 <Paper>
-                  <div style={{ textAlign: "center", marginLeft: "10px" }}>
+                  <div style={{ textAlign: "center" }}>
                     <img alt="people" src={Orders} width="100" height="100" />
                     <Typography
                       variant="body2"
@@ -134,7 +134,7 @@ const Homepage = () => {
                   </div>
                 </Paper>
                 <Paper sx={{ marginTop: "10%" }}>
-                  <div style={{ textAlign: "center", marginLeft: "10px" }}>
+                  <div style={{ textAlign: "center" }}>
                     <img
                       alt="people"
                       src={Customers}
@@ -159,9 +159,9 @@ const Homepage = () => {
                   </div>
                 </Paper>
               </Grid>
-              <Grid item xs={2}>
+              <Grid item xs={4} lg={2} sm={4}>
                 <Paper>
-                  <div style={{ textAlign: "center", marginLeft: "10px" }}>
+                  <div style={{ textAlign: "center"}}>
                     <img alt="people" src={Delivery} width="100" height="100" />
                     <Typography
                       variant="body2"
@@ -181,7 +181,7 @@ const Homepage = () => {
                   </div>
                 </Paper>
                 <Paper sx={{ marginTop: "10%" }}>
-                  <div style={{ textAlign: "center", marginLeft: "10px" }}>
+                  <div style={{ textAlign: "center" }}>
                     <img alt="people" src={Revenue} width="100" height="100" />
                     <Typography
                       variant="body2"
@@ -202,7 +202,7 @@ const Homepage = () => {
                   </div>
                 </Paper>
               </Grid>
-              <Grid item xs={2}>
+              <Grid item xs={12} sm={12} lg={2}>
                 <Paper>
                   <div style={{ textAlign: "center", marginLeft: "10px" }}>
                     <img alt="people" src={Revenue} width="100" height="100" />
@@ -225,7 +225,7 @@ const Homepage = () => {
                   </div>
                 </Paper>
                 <Paper sx={{ marginTop: "10%" }}>
-                  <div style={{ textAlign: "center", marginLeft: "10px" }}>
+                  <div style={{ textAlign: "center" }}>
                     <img alt="people" src={Revenue} width="100" height="100" />
                     <Typography
                       variant="body2"
@@ -246,8 +246,8 @@ const Homepage = () => {
                   </div>
                 </Paper>
               </Grid>
-              <Grid item xs={4}>
-                <Paper>
+              <Grid item  xs={12} sm={12} lg={4}>
+                <Paper sx={{height:"100%"}}>
                   <SimpleChart />
                 </Paper>
               </Grid>
